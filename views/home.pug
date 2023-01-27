@@ -1,0 +1,29 @@
+extends base.pug
+
+block scripts   
+    script(src="../static/index.js")
+
+block style 
+    style 
+       include  ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome to Mitul's Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+    section#missionSection 
+        h2 Our Mission
+        .card 
+            h3 Dance perfection
+        .card 
+            h3 Dance the way you like 
+        .card 
+            h3 Expert Teaching
+    section#sponsorSection 
+        h2 Our Sponsors  
+        #sponsors 
+            img(src="/static/logo/apple.jpg",alt="Sponsor Image", class="spImage")
+            img(src="/static/logo/hp.png",alt="Sponsor Image", class="spImage")
+            img(src="/static/logo/microsoft.png",alt="Sponsor Image", class="spImage")
+            img(src="/static/logo/skype.png",alt="Sponsor Image", class="spImage")
+    

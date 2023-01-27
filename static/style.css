@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar{
+    background-color: #be84c6;
+    padding: 12px 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 28px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#introSection{
+    color: white;
+    background: center / cover no-repeat url("/static/bg2.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: red;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 3rem;
+    padding-bottom: 40px;
+}
+
+#introSection div.small{
+    font-size: 2rem;
+}
+
+#sponsorSection{
+    height: 300px;
+    background-color: #b485bb;
+}
+
+#sponsorSection h2{
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#missionSection h2{
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    height: 42px;
+    font-size: 28px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#missionSection{
+    height: 300px;
+    background-color: white;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 11px;
+    height: 210px;
+}
+
+#sponsors{
+    height: 165px;
+    max-width: 1000px;
+    margin: 23px auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}

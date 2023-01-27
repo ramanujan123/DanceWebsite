@@ -1,0 +1,21 @@
+//- base.pug
+doctype html
+html
+  head
+    title Mitul Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar.top 
+            ul 
+                #logo 
+                    img(src="/static/logo/logo1.jpg")
+                    | MDA
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services] 
+                li #[a(href="/") Class Info] 
+                li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer 
+      | Copyright © 2023 MitulDanceAcademy.com | All rights reserved 
